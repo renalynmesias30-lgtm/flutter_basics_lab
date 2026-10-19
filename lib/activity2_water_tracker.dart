@@ -30,8 +30,9 @@ static const int _goal = 6;
 // 3. Each method changes the data INSIDE setState(),
 // which tells Flutter to call build() again
 void _addGlass() {
+  setState(() {
 if (_glasses < _goal) _glasses++;
-setState(() {});
+});
 }
 void _removeGlass() {
 setState(() {
