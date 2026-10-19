@@ -62,7 +62,7 @@ const SizedBox(height: 8),
 const Row(
   mainAxisSize: MainAxisSize.min,
   children: [
-    Icon(Icons.email, size: 20),
+    Icon(Icons.phone, size: 20),
     SizedBox(width: 8),
     Text('09551290747'),
   ],
